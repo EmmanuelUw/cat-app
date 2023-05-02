@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
-    
-    <title>CatPhotoApp</title>
-  </head>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CatPhotoApp</title>
+        <link href="styles.css" rel="stylesheet"/>
+      </head>
   <body>
-    <main>
+    <main class="main">
       <h1>CatPhotoApp</h1>
-      <section>
+      <section class="cats">
+        <section class="cat">
         <h2>Cat Photos</h2>
         <!-- TODO: Add link to cat photos -->
         <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
         <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
-      </section>
-      <section>
+        </section>
+        <section class="cat">
         <h2>Cat Lists</h2>
         <h3>Things cats love:</h3>
         <ul>
@@ -26,6 +29,8 @@
           <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
           <figcaption>Cats <em>love</em> lasagna.</figcaption>  
         </figure>
+        </section>
+        <section class="cat">
         <h3>Top 3 things cats hate:</h3>
         <ol>
           <li>flea treatment</li>
@@ -36,8 +41,9 @@
           <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
           <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
         </figure>
+        </section>
       </section>
-      <section>
+   <section class="cat">
         <h2>Cat Form</h2>
         <form action="https://freecatphotoapp.com/submit-cat-photo">
           <fieldset>
@@ -54,7 +60,10 @@
           <input type="text" name="catphotourl" placeholder="cat photo URL" required>
           <button type="submit">Submit</button>
         </form>
-      </section>
+        </section>  
+     
+       
+     
     </main>
     <footer>
       <p>
@@ -63,3 +72,4 @@
     </footer>
   </body>
 </html>
+
